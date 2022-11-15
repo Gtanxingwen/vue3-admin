@@ -74,8 +74,6 @@ export default ({ command, mode }: ConfigEnv): UserConfig => {
       //     drop_console: VITE_DROP_CONSOLE,
       //   },
       // },
-      // Turning off brotliSize display can slightly reduce packaging time
-      brotliSize: false,
       chunkSizeWarningLimit: 2000,
     },
     define: {
@@ -100,9 +98,7 @@ export default ({ command, mode }: ConfigEnv): UserConfig => {
     optimizeDeps: {
       // @iconify/iconify: The dependency is dynamically and virtually loaded by @purge-icons/generated, so it needs to be specified explicitly
       include: [
-        '@vue/runtime-core',
         '@vue/shared',
-        '@iconify/iconify',
         'ant-design-vue/es/locale/zh_CN',
         'ant-design-vue/es/locale/en_US',
       ],

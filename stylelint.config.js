@@ -44,6 +44,7 @@ module.exports = {
     'declaration-colon-space-after': 'always-single-line',
     'declaration-colon-space-before': 'never',
     // 'declaration-block-trailing-semicolon': 'always',
+    'import-notation': 'string',
     'rule-empty-line-before': [
       'always',
       {

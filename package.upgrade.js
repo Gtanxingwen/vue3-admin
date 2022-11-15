@@ -13,8 +13,11 @@ function genPkgNames(obj) {
 const deps = genPkgNames(dependencies);
 const devDeps = genPkgNames(devDependencies);
 
-const depCommand = `pnpm install ${deps.join(' ')}`;
-const devDepCommand = `pnpm install ${devDeps.join(' ')} -D`;
+const depCommand = `pnpm add ${deps.join(' ')}`;
+const devDepCommand = `pnpm add ${devDeps.join(' ')} -D`;
 
+console.log('==============================================')
 console.log(depCommand);
+console.log('==============================================')
 console.log(devDepCommand);
+console.log('==============================================')
