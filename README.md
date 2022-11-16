@@ -1,9 +1,9 @@
-<h1>Vue3 zj admin</h1>
+<h1>Vue3 admin</h1>
 </div>
 
 ## 简介
 
-Vue3 zj admin 是一个中后台模版。使用了最新的`vue3`,`vite2`,`TypeScript`等主流技术开发。
+Vue3 admin 是一个中后台模版。使用了最新的`vue3`,`vite2`,`TypeScript`等主流技术开发。
 
 ## 特性
 
